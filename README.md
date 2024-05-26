@@ -7,7 +7,7 @@ Assumptions about the project:
 
 
 Instructions for running:
-1. open the terminal in the directory of the project (the 'SpreadSheets' directory)
+1. open the terminal in the directory of the project (the 'SpreadSheets' directory- where 'bin', 'src' and 'target' are)
 2. run 'mvn install' in the directory
 3. copy SpreadSheets-0.0.1-SNAPSHOT.jar from the 'target' directory to the 'SpreadSheets' directory
 3. run 'java -cp SpreadSheets-0.0.1-SNAPSHOT.jar;***/SpreadSheets/target/dependency/junit-4.13.jar;***/SpreadSheets/target/dependency/hamcrest-core-1.3.jar org.junit.runner.JUnitCore Tests.SpreadSheetTests' replace your path to the directory in ***
